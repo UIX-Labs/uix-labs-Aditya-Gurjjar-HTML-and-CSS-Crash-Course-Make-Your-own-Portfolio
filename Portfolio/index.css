@@ -1,1 +1,48 @@
-/* Write your code below for PORTFOLIO */
+<html>
+<head>
+<title>Portfolio</title>
+</head>
+<h2>Kumar</h2>
+<body>
+<ul>
+<li>ABOUT</li>
+<li>SKILLS</li>
+<li>PROJECTS</li>
+<li>REVIEWS</li>
+</ul>
+<button>CONTACT ME</button><br>
+
+<section> <h1>Aditya Kumar<h1><br>
+<img src="images.jpg"/><br>
+<h1>Front End Developer</h1>
+<h3>GET TO KNOW ME </h3>
+<p>My name is Aditya, and I'm a passionate front-end developer with 2 Years of experience crafting responsive and user-friendly websites and applications. 
+I specialize in [specific technologies or frameworks, e.g., React, Vue, Angular], and I have a strong grasp of the modern web development ecosystem including HTML, CSS, JavaScript, and related tools.</p><br>
+<ul>
+<li>Name:Aditya Kumar</li>
+<li>Age:20</li>
+<li>Experience:2years</li>
+</section>
+<h2> SKILLS</h2>
+<h3> GET IN TOUCH </h3>
+<h3> CONTACT</h3>
+<form action="/submit" method="post">
+  <label>Name*:</label>
+  <input type="text" name="Name"><br>
+ <label>Email address*:</label>
+  <input type="text" name="email_addr" value=""><br>
+<label>Message</label><br>
+ <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..."></textarea>
+
+    <input type="submit" value="SUBMIT">
+</form><br>
+<h4>+918062525694</h4>
+<h4>adityakumar@gmail.com</h4>
+<h4>HOME</h4>
+<h4>ABOUT</h4>
+<h4>SKILLS</h4>
+<h4>PROJECTS</h4>
+<h4>REVIEWS</h4>
+</body>
+</html>
