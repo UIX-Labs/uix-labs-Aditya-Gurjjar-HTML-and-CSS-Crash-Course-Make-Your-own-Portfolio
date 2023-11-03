@@ -1,6 +1,18 @@
 <html>
 <head>
 <title>Portfolio</title>
+<head>
+  <style>
+      body {
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      }
+      .a{
+        background: url(<path-to-image>), rgb(134, 132, 132) 100% / cover no-repeat;
+      }
+      .custom-button {
+        background: url(<path-to-image>), rgb(134, 132, 132) 100% / cover no-repeat;
+        }
+  </style>
 </head>
 <h2>Kumar</h2>
 <body>
@@ -24,6 +36,38 @@ I specialize in [specific technologies or frameworks, e.g., React, Vue, Angular]
 <li>Experience:2years</li>
 </section>
 <h2> SKILLS</h2>
+<h3>PROJECTS</h3>
+<img src="screen1.png"/><br>
+<h3><b>Taskbot, Real-time Task Manager</b></h3>
+<h4>React.js, Firebase</h4>
+<p><b>Developed a dynamic task management application
+    using React.js and Firebase.<br>Users can create, update, and delete tasks in real-
+    time across devices. <br>Integrated Firebase Authentication for secure user
+    access.</b></p>
+    <button class="custom-button">EXPLORE</button><br>
+    <img src="screen2.png"/><br>
+    <h3><b>ShopPro, E-Commerce Website</b></h3>
+    <h4>React.js, TypeScript, Firebase</h4>
+    <p><b>Developed a responsive e-commerce website using
+        React.js and TypeScript.<br>Integrated Firebase for user authentication and
+        Firestore for prduct data storage.<br>Implemented secure payment processing with Stripe API.</b></p>
+        <button class="custom-button">EXPLORE</button><br>
+        <img src="screen3.png"/><br>
+        <h3><b>Eventzer, Event Planning & Management</b></h3>
+        <h4>React Native, Firebase</h4>
+        <p><b>Created a cross-platform mobile app using React
+            Native for glnnnlng.<br>users can browse through and RSVP to events, view
+            event details and receive real-time updates.<br>Utilized Firebase Cloud Firestore for data storage and Firebase Cloud Functions for push notifications.</b></p>
+            <button class="custom-button">EXPLORE</button><br>
+            <img src="screen4.png"/><br>
+            <h3>FinanceSage, Personal Finance Tracker</h3>
+            <h4>Svelte.js, Firebase</h4>
+            <p><b>Created a lightweight personal finance tracking web
+              app using Svelte.js and Firebase.<br>Users can log income and expenses, visualize
+              financial data and set budget goals.<br>Firebase Authentication for user management and
+              Firestore for data storage.</b></p>
+              <button class="custom-button">EXPLORE</button><br>
+<div class="a">
 <h3> GET IN TOUCH </h3>
 <h3> CONTACT</h3>
 <form action="/submit" method="post">
@@ -43,6 +87,7 @@ I specialize in [specific technologies or frameworks, e.g., React, Vue, Angular]
 <h4>ABOUT</h4>
 <h4>SKILLS</h4>
 <h4>PROJECTS</h4>
-<h4>REVIEWS</h4>
+<h4>REVIEWS</h4></div>
+
 </body>
 </html>
