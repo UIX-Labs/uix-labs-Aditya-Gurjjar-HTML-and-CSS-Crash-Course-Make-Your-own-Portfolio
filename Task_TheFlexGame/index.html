@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Flex Game</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
+<html lang="en">
+<head>
+   
+    <title>Flexbox Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 10;
+            height: 20px; 
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center  ; 
+            gap: 10px;
+        }
 
-  <body style="margin: 0; padding: 0">
-    <!-- Start coding from the lines below for FLEX GAME TASK -->
-  </body>
+        .flex-container1 {
+            width: 20%;
+            height: 500px;
+            padding: 25px;
+            background-color: #604AC6;;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: top;
+            align-items: center;
+            text-align: center;
+        }
+        .flex-container2 {
+            width: 80%;
+            height: 500px;
+            padding: 25px;
+            font-family: Inter;
+            gap: 1rem;
+            flex-wrap: wrap;      
+            background-color: #01AB63;;
+            color: #fff;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            align-content: flex-start;
+            text-align: center;
+        }
+        .item {
+            margin: 10px;
+            padding: 10px;
+            width: 100px;
+            align-items: center;
+            background-color: #D9D9D9;;
+        }
+        .item1 {
+            margin-top: 30px;
+            padding: 10px;
+            margin-bottom:-30px;
+            align-items:flex-start;
+            background-color: #00834D;;
+            width: 40px;    
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="flex-container1"  style="flex-basis: 20%"><h style="font-family: Arial;">MENU</h>
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    
+    <div class="flex-container2" style="flex-basis: 60% "><h style="font-family: Arial;">CONTENT</h>
+        <div class="item1" style="margin-left: -92px;">1</div>
+        <div class="item1">2</div>
+        <div class="item1">3</div>
+        <div class="item1">4</div>
+        <div class="item1">5</div>
+        <div class="item1">6</div>
+        <div class="item1">7</div>
+        <div class="item1">8</div> 
+    </div>
+</body>
 </html>
